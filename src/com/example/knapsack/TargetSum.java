@@ -4,19 +4,19 @@ import java.util.Arrays;
 
 // Problem link - https://www.educative.io/courses/grokking-dynamic-programming-a-deep-dive-using-java/target-sum
 /* Problem Statement
-* Given an array of positive integers arr and a target T, build an expression using these numbers by
-* inserting a [+] or a [-] before each integer, and evaluating this expression.
-* Find the total number of different expressions that evaluate to T.
-*/
+ * Given an array of positive integers arr and a target T, build an expression using these numbers by
+ * inserting a [+] or a [-] before each integer, and evaluating this expression.
+ * Find the total number of different expressions that evaluate to T.
+ */
 public class TargetSum {
 
     public static void main(String[] args) {
         int[][] arrs = {{1}, {3, 3, 3, 3}, {2, 3, 4, 6, 8, 12}, {2, 2, 2, 4, 4, 4, 8, 8, 8}};
         int[] targets = {1, 6, 15, 18};
 
-        for (int i=0; i<arrs.length; ++i){
-            String a =  "[" + arrs[i][0];
-            for (int j=1; j<arrs[i].length; ++j)
+        for (int i = 0; i < arrs.length; ++i) {
+            String a = "[" + arrs[i][0];
+            for (int j = 1; j < arrs[i].length; ++j)
                 a = a + ", " + arrs[i][j];
             a += "]";
             System.out.println(i + 1 + ".\t Input array: " + a);
