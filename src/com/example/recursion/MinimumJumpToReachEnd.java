@@ -3,9 +3,9 @@ package com.example.recursion;
 import java.util.Arrays;
 
 // Problem link - https://www.educative.io/courses/grokking-dynamic-programming-a-deep-dive-using-java/minimum-jumps-to-reach-the-end
-/* Problem Statement - Given an array nums of positive numbers, start from the first index and reach the last index
-with the minimum number of jumps, where a number at an index represents the maximum jump from that index.
-*
+/* Problem Statement -
+* Given an array nums of positive numbers, start from the first index and reach the last index with the minimum
+* number of jumps, where a number at an index represents the maximum jump from that index.
 */
 public class MinimumJumpToReachEnd {
 
