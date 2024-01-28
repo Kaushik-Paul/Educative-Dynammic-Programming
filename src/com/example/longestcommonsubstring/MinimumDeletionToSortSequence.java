@@ -2,6 +2,13 @@ package com.example.longestcommonsubstring;
 
 import java.util.Arrays;
 
+// Problem link - https://www.educative.io/courses/grokking-dynamic-programming-a-deep-dive-using-java/minimum-deletions-to-make-a-sequence-sorted
+/* Problem Statement -
+* Given an integer array nums, the task is to remove or delete the minimum number of elements from the array so that
+* the remaining elements form a strictly increasing sequence. This is very similar to the Longest Increasing
+* Subsequence (LIS) problem because elements other than the longest increasing subsequence should be removed to
+* make the sequence sorted.
+*/
 public class MinimumDeletionToSortSequence {
 
     public static void main(String[] args) {
